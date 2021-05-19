@@ -42,7 +42,7 @@ body {
 }
 
 .header__menu li a {
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 
@@ -64,5 +64,27 @@ body {
 
 .header__menu--profile p {
     margin: 0px;
-    color: white;
+    color: gray;
+}
+
+.main {
+    height: 300px;
+}
+
+.main__title {
+    color: gray;
+    font-size: 25px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 30px;
+    color: gray;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+    outline: none;
 }
